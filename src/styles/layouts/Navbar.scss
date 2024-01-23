@@ -1,0 +1,14 @@
+#basic-navbar-nav {
+  .nav:hover {
+  border-bottom: 2px solid white;
+  }
+  .basket-icon-container, .login-icon-container, .signup-icon-container {
+    position: relative;
+    svg {
+      color: #5CC9BC;
+      height: 1.6em;
+      margin-bottom: 3.5px;
+      margin-right: 5px;
+    }
+  }
+}

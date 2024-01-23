@@ -1,0 +1,19 @@
+#footer {
+  background: #303333;
+  display: flex;
+  .box {
+    background: #434848;
+    text-align: left;
+    margin: 5px;
+    width: 320px;
+    height: 315px;
+    border-radius: 3px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}

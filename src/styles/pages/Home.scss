@@ -1,0 +1,125 @@
+#hero {
+  margin: auto;
+  h1 {
+    color: #440063;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    line-height: 2;
+    max-width: 45em;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    background: #00CCBC;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .btn:hover {
+    background: #5CC9BC;
+    color: rgb(246, 242, 242);
+  }
+}
+
+#hot-picks {
+  background: #FCEBE5;
+  .text-center {
+    font-size: 22px;
+  }
+}
+
+#options {
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  p {
+    font-size: 28px;
+    background: #F9FAFA;
+    margin-right: 20px;
+    border-radius: 8px;
+    display: flex;
+  }
+}
+
+#app {
+  background: #F9FAFA;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#work {
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 16px;
+  }
+}
+
+#newsletter {
+  background: #5DC8BC;
+  h1 {
+    color: #440063;
+  }
+  h4 {
+    line-height: 2;
+    max-width: 45em;
+    color: white;
+  }
+  .contact-form {
+    width: 90vw;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  .form-input,
+  .submit-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #D4CCCC;
+  }
+  .form-input {
+    border-right: none;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+  }
+  .form-input::placeholder {
+    color: #D1C9C9;
+    text-transform: capitalize;
+  }
+  .submit-btn {
+    background: #d0ec98;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    cursor: pointer;
+    transition: var(--transition);
+    color: #006400;
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+  }
+  .submit-btn:hover {
+    color: var(--clr-white);
+  }
+  @media (min-width: 992px) {
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 8rem;
+      margin-top: 2rem;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  @media (min-width: 1280px) {
+    padding: 15rem 0;
+  }
+}

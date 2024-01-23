@@ -1,0 +1,30 @@
+#pages-not-found {
+  background-image: url('../images/NotFound.png') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 552px;
+  .btn {
+    background: #00CCBC;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .btn:hover {
+    background: #5CC9BC;
+    color: rgb(246, 242, 242);
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 5rem;
+    letter-spacing: -2px;
+  }
+  .first-par, .second-par {
+    font-size: 16px;
+    letter-spacing: -1px;
+  }
+}

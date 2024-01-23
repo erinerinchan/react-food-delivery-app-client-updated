@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~react-toastify/dist/ReactToastify.min.css";
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import "./pages/restaurants/Res-Index.scss";
+@import "./pages/restaurants/Show.scss";
+@import "./pages/Home.scss";
+@import "./pages/About.scss";
+@import "./pages/NotFound.scss";
+@import "./components/Carousel.scss";
+@import "./components/Footer.scss";
+@import "./layouts/Navbar.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 735px;
+  background-image: url("../images/hero1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.875rem;
+}
+
+#root {
+  height: 100%;
+  // overflow: auto;
+}
+
+/* Features */
+.btn-transparent {
+  background: transparent;
+  border: none;
+}
+
+.btn-transparent:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.breadcrumb-item {
+  font-size: 25px;
+  color: var(--bs-breadcrumb-divider-color);
+}
+
+.pointer {
+  cursor: pointer;
+}

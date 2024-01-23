@@ -1,0 +1,114 @@
+#pages-restaurants-show {
+  #information {
+    #header {
+      img {
+        width: 400px;
+        height: 221px;
+        margin: 10px 20px 10px 4px;
+        float: left;
+        border: none;
+        border-radius: 8px;
+      }
+
+      h2 {
+        font-size: 40px;
+        color: #2E3333;
+      }
+
+      .badge-container {
+        padding: 0 4px 0 0;
+
+        .badge {
+          color: #2E3333;
+          font-size: 16px;
+          font-weight: normal;
+          border-radius: 5px;
+          margin-right: 10px;
+        }
+      }
+
+      .star-container {
+        padding: 4px 4px 0 0;
+
+        .star {
+          color: #4D7C1B;
+          font-size: 25px;
+          padding: 5px 5px 0 0
+        }
+      }
+
+      .opening- {
+        color: #585C5C;
+        font-size: 16px;
+        padding: 5px 5px 0 0;
+      }
+    }
+  }
+
+  #tabs {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    .item {
+      color: #00B8A9;
+
+      &:hover {
+        color: #04ffea;
+      }
+    }
+  }
+
+  #food {
+    .container {
+      flex-direction: column;
+      .click {
+        text-decoration: none;
+      }
+      .card {
+        border: none;
+        box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          }
+          .card-title {
+            color: #2E3333;
+          }
+          .card-desc, .card-price {
+            color: #595C5C;
+          }
+          .card-desc {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            word-break: none;
+            overflow: hidden;
+          }
+
+          .card-img {
+            width: 208px;
+            height: 200px;
+            padding: 25px 25px 25px 25px;
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+      }
+    }
+  }
+
+  #amount-btn {
+    width: 140px;
+      h2 {
+        margin-bottom: 0;
+      }
+      button {
+      background: transparent;
+      border-color: transparent;
+      padding: 1rem 0;
+      width: 2rem;
+      height: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
